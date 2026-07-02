@@ -28,10 +28,10 @@ La ditta è specializzata nell'assistenza tecnica elettromeccanica, nella ripara
 
 ## 💻 Sviluppo Locale e Deployment
 
-Se desideri apportare modifiche alla struttura o aggiornare i contenuti multimediali dei brevetti, segui queste procedure dal terminale:
+Piccolo reminder
 
 ### Compilazione e Aggiornamento del Sito Live
-Per rigenerare la build web e pubblicare automaticamente le modifiche su GitHub Pages, esegui:
+Per rigenerare la build web e pubblicare automaticamente le modifiche su GitHub Pages:
 
 ```powershell
 # Compila l'applicazione impostando il base-href corretto
