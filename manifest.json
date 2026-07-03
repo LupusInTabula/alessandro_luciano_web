@@ -1,11 +1,11 @@
 {
-    "name": "alessandro_luciano_site",
-    "short_name": "alessandro_luciano_site",
+    "name": "Alessandro Luciano - Tecnico Elettromeccanico",
+    "short_name": "Alessandro Luciano",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#0B2545",
+    "theme_color": "#0B2545",
+    "description": "Riparazione e compravendita di pezzi di ricambio per macchine per calzature.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
