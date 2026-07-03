@@ -99,7 +99,7 @@ class CompanyContent {
     ],
     media: MediaAsset(
       imagePath: 'assets/images/placeholder_pinza.jpg',
-      videoPath: 'assets/videos/placeholder_pinza.mp4',
+      youtubeUrl: 'https://youtube.com/shorts/43UEVkqKy8A?si=shrIDzUUE3dh6k01',
       caption: 'Pinza Speciale Pneumatica in funzione',
     ),
   );
@@ -119,7 +119,7 @@ class CompanyContent {
     ],
     media: MediaAsset(
       imagePath: 'assets/images/placeholder_martello.jpg',
-      videoPath: 'assets/videos/placeholder_martello.mp4',
+      youtubeUrl: 'https://youtube.com/shorts/2ScmhwLPX5o?si=9HMUj908N3fIw_dj',
       caption: 'Martello Pneumatico in funzione',
     ),
   );

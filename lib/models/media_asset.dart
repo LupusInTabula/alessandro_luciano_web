@@ -7,13 +7,17 @@
 class MediaAsset {
   final String imagePath;
   final String? videoPath;
+  final String? youtubeUrl;
   final String caption;
 
   const MediaAsset({
     required this.imagePath,
     required this.caption,
     this.videoPath,
+    this.youtubeUrl,
   });
 
-  bool get hasVideo => videoPath != null && videoPath!.isNotEmpty;
+  bool get hasVideo =>
+      (videoPath != null && videoPath!.isNotEmpty) ||
+      (youtubeUrl != null && youtubeUrl!.isNotEmpty);
 }

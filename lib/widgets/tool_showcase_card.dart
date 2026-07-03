@@ -18,7 +18,15 @@ class ToolShowcaseCard extends StatelessWidget {
     final width = MediaQuery.of(context).size.width;
     final isMobile = AppBreakpoints.isMobile(width);
 
-    final media = MediaPlaceholderCard(media: tool.media);
+    final isYoutubeShort = tool.media.youtubeUrl != null;
+    final media = isYoutubeShort
+        ? Center(
+            child: ConstrainedBox(
+              constraints: const BoxConstraints(maxWidth: 320),
+              child: MediaPlaceholderCard(media: tool.media, aspectRatio: 9 / 16),
+            ),
+          )
+        : MediaPlaceholderCard(media: tool.media);
     final info = _ToolInfo(tool: tool);
 
     if (isMobile) {
